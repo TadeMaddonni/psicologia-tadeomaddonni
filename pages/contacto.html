@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto | Lic Claudia D´Angelo</title>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com"crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="../css/estilos.css">
+</head>
+<body>
+
+    <!-- Comienza header -->
+    <header class="headercontacto">
+        <nav class="navcontacto">
+            <ul class="navcontacto__ul">
+                <li class="nav__li"><a href="../index.html">Inicio</a></li>
+                <li class="nav__li"><a href="../pages/sobremi.html">Sobre mi</a></li>
+                <li class="nav__li"><a href="../pages/seminarios.html">Seminarios</a></li>
+                <li class="nav__li"><a href="../pages/especialidades.html">Especialidades</a></li>
+                <li class="nav__li"><a href="#">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- finaliza Header -->
+    
+    <!-- Comienza main -->
+    <main class="maincontacto">
+        <section class="maincontacto__sect1">
+            <h1 class="maincontacto__h1">Contacto</h1>
+        </section>
+
+        <section class="maincontacto__sect2">
+            <div class="maincontacto__formContainer">
+                <form class="maincontacto__form" method="post">
+                    <div class="maincontacto__inputContainer">
+                        <label for="nombre">Nombre:</label>
+                        <input class="maincontacto__input" type="text" name="nombre" placeholder="ingrese su nombre">
+                    </div>
+
+                    <div class="maincontacto__inputContainer">
+                        <label for="apellido">Apellido:</label>
+                        <input class="maincontacto__input" type="text" name="apellido" placeholder="ingrese su apellido">
+                    </div>
+                    
+                    <div class="maincontacto__inputContainer">
+                        <label for="email">Email:</label>
+                        <input class="maincontacto__input" type="email" name="email" placeholder="Ingrese su E-mail">
+                    </div>
+                    <div class="maincontacto__inputContainer">
+                        <label for="consulta">Consulta:</label>
+                        <textarea class="maincontacto__input" name="consulta" id="" cols="30" rows="2" placeholder="Ingrese su consulta"></textarea>
+                    </div>
+
+                    <div class="maincontacto__inputContainer">
+                        <input class="maincontacto__btn" type="submit" value="Enviar">
+                        <input class="maincontacto__btn" type="reset" value="Borrar">
+                        <!-- boton para javascript -->
+                        <input class="maincontacto__btn--1" type="button" value="js">
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+    <!-- Finaliza main -->
+
+    <!-- Comienza footer -->
+    <footer class="footercontacto">
+        <div>
+            <p class="footer__p">Todos los derecho reservados @2022</p>
+        </div>
+
+    </footer>
+    <!-- Finaliza footer -->
+
+</body>
+</html>
