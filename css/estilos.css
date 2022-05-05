@@ -997,7 +997,7 @@ body{
 
     /* Estilos  footer index */
     .footerindex{
-        margin-top: 5px;
+        margin-top: 25px;
         height: 45px;
         width: 100%;
         display: flex;
@@ -1124,6 +1124,7 @@ body{
     }
 
     .sobremisect2__containerimg{
+        margin-right: 20px;
         border: 2px solid black;
         width: 150px;
         height: 220px;
@@ -1132,8 +1133,8 @@ body{
 
     .sobremisect2__containerimg2{
         position: absolute; 
-        margin-left: 7%;
-        margin-top: 12%;
+        margin-left: 20%;
+        margin-top: 30%;
         border: 2px solid black;
         z-index: 10;
         width: 150px;
@@ -1240,6 +1241,7 @@ body{
         transition: .3s;
     }
     .footer1__pContainer{
+        margin-left: 15px;
         grid-column: 2/6;
         display: flex;
         align-items: center;
@@ -1256,7 +1258,7 @@ body{
 
 /* Comienza navegacion Seminarios */
     .bodysemin{
-        background-color: #fff;
+        background-color: #C8F9E7;
     }
 
     .headerseminarios{
@@ -1379,6 +1381,7 @@ body{
     }
 
     .sectionSem2__container{
+        margin-top: 30px;
         background-color: #C8F9E7;
         display: flex;
         flex-direction: column;
@@ -1405,6 +1408,7 @@ body{
 
     /* Comienza footer Semianrios */
     .footerSem{
+        margin-top: 30px;
         background-color:#C8F9E7;
         padding-top: 20px;
         height: 50px;
@@ -1459,7 +1463,7 @@ body{
 
     .mainEsp{
         width: 100%;
-        height: 800px;
+        height: 900px;
     }
 
     .mainEsp__whitesect{
@@ -1487,7 +1491,7 @@ body{
         margin-bottom: 20px;
     }
     .sectionEsp__btnContainer{
-        margin-top: 0px;
+        margin-top: 10px;
         width: 100%;
         height: 100px;
         background-color: #fff;
