@@ -922,7 +922,7 @@ body{
     /* Estilos Main index */
     .main{
         width: 100%;
-        height: 900px;
+        height: 950px;
         overflow: hidden;
         display: flex;
         flex-direction: column;
@@ -1196,7 +1196,6 @@ body{
 
 /* Estilos Footer sobre mi */
     .footer1{
-        border: 1px solid var(--font-color);
         margin-top: 20px;
         width: 100%;
         height: 70px;
@@ -1609,7 +1608,7 @@ body{
     
     .maincontacto{
         width: 100%;
-        height: 800px;
+        height: 1000px;
         display: flex;
         flex-direction: column;
         background-color: var(--color-secundario);
@@ -1645,7 +1644,7 @@ body{
     
     .maincontacto__formContainer{
         background-color: var(--color-principal);
-        height: 80%;
+        height: 70%;
         width:90%;
         display: flex;
         justify-content: center;
@@ -2576,3 +2575,7 @@ body{
     }
     
 }
+
+
+/* Tablets en horizontal y laptops */
+
