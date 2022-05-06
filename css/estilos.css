@@ -12,13 +12,14 @@ body{
     scroll-behavior: smooth;
 }
 
-
 /* Variables */
 :root{
     --color-principal:#d9faf9;
     --color-secundario:#fff;
     --font-color:#141F35;
 }
+
+
 /* Estilos navegacion index*/
 
 .header{
@@ -48,16 +49,17 @@ body{
 }
 
 .nav__li a{
+    color: #141F35;
     text-decoration: none;
     font-weight:medium;
     font-size: 16px;
 }
 .nav__li a:visited{
-    color: var(--font-color);
+    color:#141F35;
 }
 
 .nav__li a:active{
-    color: var(--font-color);
+    color:#141F35;
 }
 
 .nav__li a:hover{
@@ -99,6 +101,7 @@ body{
 }
 
 .whitesect__button{
+    color: #141F35;
     margin-left: 10px;
     margin-bottom: 30px;
     align-self: center;
@@ -111,7 +114,7 @@ body{
     text-decoration: none;
 }
 .whitesect__button:visited{
-    color: var(--font-color);
+    color: #141F35;
 }
 
 
@@ -874,7 +877,7 @@ body{
 @media  screen and (max-width:560px) {
 
     a:visited{
-        color: var(--font-color);
+        color: #141F35
     }
     
     
@@ -911,6 +914,7 @@ body{
     }
 
     .nav__li a{
+        color: #141F35;
         text-decoration: none;
         font-weight:medium;
         font-size: 10px;
@@ -1727,7 +1731,7 @@ body{
     }
 
     a:visited{
-        color: var(--font-color);
+        color:#141F35;
     }
 
     .header{
@@ -1769,7 +1773,7 @@ body{
         font-size: 10px;
     }
     .nav__li a:visited {
-        color: var(--font-color);
+        color:#141F35;
     }
 
 
@@ -2585,7 +2589,6 @@ body{
     }
     
 }
-
 
 /* Tablets en horizontal y laptops */
 
