@@ -48,6 +48,12 @@ body{
     align-items: center;
 }
 
+.nav__li:hover{
+    transform: scale(1.1);
+    transition: .3s;
+}
+
+
 .nav__li a{
     color: #141F35;
     text-decoration: none;
