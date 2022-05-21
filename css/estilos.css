@@ -871,7 +871,7 @@ body {
     font-family: 'Playfair Display', serif;
     font-size: 12px;
     font-style: italic;
-    font-weight: 700;
+    font-weight: 400;
     color: var(--font-color);
 }
 
@@ -885,7 +885,7 @@ body {
     padding: 7px 10px;
     color: var(--font-color);
     font-style: italic;
-    font-weight: 400;
+    font-weight: 300;
     font-size: 13px;
     font-family: 'Playfair Display', serif;
     background-color:#fff;
