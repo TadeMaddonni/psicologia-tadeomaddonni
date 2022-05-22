@@ -515,7 +515,7 @@ body {
 
 /* Comienzza main Seminarios */
 .mainseminarios{
-    width: 100%;
+    width: 95%;
     height: 800px;
     display: flex;
     justify-content: flex-end;
@@ -524,7 +524,7 @@ body {
 .sectionSem1{
     background-color:var(--color-principal) ;
     height: 100%;
-    width: 47%;
+    width: 50%;
     display: grid;
     grid-template-columns: repeat(7,1fr);
     grid-template-rows: repeat(4,1fr);
@@ -592,7 +592,7 @@ body {
 
 .sectionSem2{
     background-color:var(--color-principal) ;
-    width: 48%;
+    width: 50%;
     height: 100%;
     display: flex;
     justify-content: center;
@@ -624,7 +624,7 @@ body {
 /* Comienza footer Semianrios */
 .footerSem{
     height: 50px;
-    width: 100%;
+    width: 95%;
     display: flex;
     justify-content: flex-end;
 }
@@ -838,7 +838,7 @@ body {
     width:50%;
     display: flex;
     justify-content: center;
-    box-shadow: 0px 4px 20px rgba(23, 23, 23, 0.12);
+    box-shadow: 0px 4px 30px rgba(23, 23, 23, 0.12);
 }
 
 .maincontacto__form{
