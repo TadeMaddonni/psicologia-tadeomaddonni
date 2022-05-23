@@ -912,13 +912,15 @@ body {
 /*Comienza Footer contacto  */
 
 .footercontacto{
-    height: 50px;
+    margin-top: 50px;
+    height: 60px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .footer__p{
+    height: 100%;
     width: 100%;
     margin: auto;
 }
@@ -1523,7 +1525,7 @@ body {
 
     .mainEsp{
         width: 100%;
-        height: 900px;
+        height: 1000px;
     }
 
     .mainEsp__whitesect{
