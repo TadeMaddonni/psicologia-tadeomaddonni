@@ -169,8 +169,7 @@ body {
 
 
 .whitesect__button:hover{
-    background: rgb(20,31,53);
-    background: linear-gradient(90deg, rgba(20,31,53,1) 51%, rgba(28,57,113,1) 100%);
+    background-color: #141F35;
     border-color:var(--color-secundario);
     transition: .5s;
     color:var(--color-secundario);
@@ -441,6 +440,7 @@ body {
     border: 2px solid var(--font-color);
     border-radius: 15px;
     text-decoration: none;
+    font-size: 14px;
 }
 
 .footer1__btn:visited{
@@ -448,10 +448,9 @@ body {
 }
 
 .footer1__btn:hover{
-    background: rgb(20,31,53);
-    background: linear-gradient(90deg, rgba(20,31,53,1) 51%, rgba(28,57,113,1) 100%);
-    color:var(--color-principal);
-    transition: .5s;
+    background:#141F35;
+    color:var(--color-secundario);
+    transition: .3s;
 }
 .footer1__icon{
     height: 25px;
