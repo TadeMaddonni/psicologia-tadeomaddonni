@@ -1,0 +1,730 @@
+/* Comienza TABLET */
+
+@media (min-width: 561px) and (max-width: 1023px) {
+
+    /* Globañ */
+
+    body{
+        height: 100vh;
+        width: auto;
+    }
+
+    a:visited{
+        color:$color-font;
+    }
+    
+    
+    .header{
+        background-color:$color-secundario;
+        width: 100%;
+        float: right;
+        height: 50px;
+        display: flex;
+        justify-content: end;
+        box-shadow: 2px 2px 0px rgba(23, 23, 23, 0.12);
+        position: sticky;
+        z-index: 2;
+        top: 0;
+    }
+
+    .nav{
+        padding-left: 0;
+        padding-right: 0;
+        background-color: $color-secundario;
+        width: 100%;
+        height: 100%;
+        display: grid;
+        grid-template-columns: repeat(5,1fr);
+        position: sticky;
+        z-index: 2;
+    }
+
+    .nav__ul{
+        padding-right: 0;
+        width: 100%;
+        grid-column: 1/6;
+        list-style: none;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .nav__li a{
+        color: #141F35;
+        text-decoration: none;
+        font-weight:medium;
+        font-size: 10px;
+    }
+    .container-fluid{
+        background-color: white;
+    }
+
+    .menu{
+        background-color:$color-secundario;
+    }
+    /* Finaliza navegacion index */
+
+
+
+    /* Estilos Main index */
+    .main{
+        width: 100%;
+        height: 1200px;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        .whitesect{
+            background-color:$color-principal;
+            width: 100%;
+            height: 450px;
+            display: grid;
+            grid-template-columns: repeat(7,1fr);
+            grid-template-rows: repeat(4,1fr);
+            align-items: center;
+            
+            .whitesect__h1{
+                margin-top: 10px;
+                align-self: start;
+                grid-column: 2/7;
+                grid-row:2/3;
+                font-weight: 700;
+                font-size: $titles-tablet;
+                text-align: center;
+            }
+            .whitesect__button{
+                margin-left: 0;
+                margin-bottom: 30px;
+                align-self: center;
+                grid-column: 2/7;
+                grid-row: 3/4;
+                justify-self: center;
+                padding: 5px 30px;
+                border: 2px solid $color-font;
+                border-radius: 20px;
+                text-decoration: none;
+                
+                &__button:hover{
+                    background-color:$color-font;
+                    border-color:$color-secundario;
+                    transition: .5s;
+                    color:$color-secundario;
+                    transform: scale(1.1);
+                }
+
+            }
+
+        }
+        .bluesect{
+            height: 750px;
+            width: 100%;
+            background-color:$color-secundario;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+            .bluesect__container{
+                margin-top: 20px;
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                .bluesect__img{
+                    width: 350px;
+                    height: 400px;
+                    border:$color-font 2px solid;
+                }
+            
+                .bluesect__p{
+                    margin: 30px;
+                    padding-right: 10px;
+                    padding-left: 10px;
+                    width: 100%;
+                    line-height: $texts-lineHeight-tablet;
+                    font-size: $texts-tablet;
+                    text-align: center;
+                }
+            }
+        }
+    }
+
+/* Finaliza main index */
+/* Estilos  footer index */
+
+    .footerindex{
+        margin-top: 25px;
+        height: 45px;
+        width: 100%;
+        display: flex;
+        .footerindex__iconContainer{
+            width: 5%;
+            background-color:$color-principal;
+            display: flex;
+            justify-content: start;
+            align-items: center;
+                    
+            .footerindex__icon{
+                height: 25px;
+                width: 25px;
+                margin-left: 30px;
+            }
+        }
+        
+        .footerindex__pContainer{
+            width: 95%;
+            display: flex;
+            justify-content: space-around;
+            .footerindex__p{
+                font-size: $footer-text-mobile;
+                align-self: center;
+                margin-bottom: 5px;
+            }
+        }
+    }
+
+/* Finaliza footer index */
+/* Comienza pagina Sobre mi */
+/* Comienza navegacion sobre mi */
+
+    .headersobremi{
+        background-color:$color-principal;
+        width: 100%;
+        height: 50px;;
+        display: flex;
+        box-shadow: 2px 2px 0px rgba(23, 23, 23, 0.12);
+        position: sticky;
+        z-index: 2;
+        top: 0;
+    }
+    /* Finaliza navegacion sobre mi */
+
+
+    /* Comienza main Sobre Mi */
+    .mainsobremi{
+        width: 100%;
+        height: 1100px;
+        .sobremisect{
+            height: 30%;
+            width: 100%;
+            background-color:$color-principal;
+            display: flex;
+            justify-content: start;
+            
+            .sobremisect__container{
+                margin: 40px 20px;
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                
+                .sobremisect__title{
+                    font-size: $titles-tablet;
+                    font-weight: 700;
+                }
+
+                .sobremisect__p{
+                    margin-top: 20px;
+                    font-size: $texts-tablet;
+                    line-height: $texts-lineHeight-tablet;
+                    width: 100%;
+                }
+            }
+        }
+
+        .sobremisect2{
+            width: 100%;
+            height: 68%;
+            display: grid;
+            grid-template-columns: repeat(7,1fr);
+            grid-template-rows: repeat(3,1fr);
+            .sobremisect2__container{
+                background-color:$color-secundario;
+                margin-top: 0px;
+                grid-row: 1/2;
+                grid-column: 1/8;
+                width: 100%;
+                height: 350px;
+                justify-self: center;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                .sobremisect2__containerimg{
+                    margin-right: 20px;
+                    border: 2px solid var(--font-color);
+                    width: 150px;
+                    height: 220px;
+                    z-index: 2;
+                    .sobremisect2__img{
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+            
+                .sobremisect2__containerimg2{
+                    position: absolute; 
+                    margin-left:20%;
+                    margin-top: 3%;
+                    border: 2px solid $color-font;
+                    z-index: 10;
+                    width: 150px;
+                    height: 220px;
+                    .sobremisect2__img{
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+            }
+            
+            .sobremisect2__container2{
+                margin: 40px 20px;
+                grid-column: 1/8;
+                grid-row: 2/3;
+                justify-content: end;
+                .sobremisect2__title{
+                    text-align: left;
+                    font-size: $titles-tablet;
+                    font-weight: 700;
+                }
+            
+                .sobremisect2__p{
+                    margin-top: 20px;
+                    font-size: $texts-tablet;
+                    line-height: $texts-lineHeight-tablet;
+                    text-align: left;
+                }
+            }
+            .sobremisect2__container3{
+                grid-column: 1/8;
+                grid-row: 3/4;
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                
+                .sobremisect2__arrowcontainer{
+                    margin-top: 0;
+                    margin-left: 30px;
+                    margin-right: 30px;
+                }
+                
+                .sobremisect2__containerimg3{
+                    margin-top: 20px;
+                    width: 180px;
+                    height: 180px;
+                    border-radius: 50%;
+                    border: 1px solid $color-font;
+                }
+            }
+        }
+    
+    }
+
+/* Finaliza main sobre mi */
+/* Estilos Footer sobre mi */
+
+    .footer1{
+        margin-top: 120px;
+        width: 100%;
+        height: 70px;
+        float: right;
+        background-color:$color-secundario;
+        display: grid;
+        grid-template-columns: repeat(5,1fr);
+        .footer1__container{
+            grid-column: 1/2;
+            display: flex;
+            align-items: center;
+            justify-content: center;        
+            .footer1__btn{
+                margin-left: 17px;
+                height: 30px;
+                padding: px 13px;
+                border: 2px solid $color-font;
+                border-radius: 15px;
+                text-decoration: none;
+                font-size: 13px;
+            }
+            
+            .footer1__icon{
+                height: 25px;
+                width: 25px;
+                margin-left: 30px;
+            }
+        }
+        .footer1__pContainer{
+            margin-left: 4px;
+            grid-column: 2/6;
+            display: flex;
+            align-items: center;
+            justify-content: start;
+            .footer1__p{
+                margin-top: 15px;
+                width: 100%;
+                text-align: center;
+                font-size:$footer-text-tablet;
+        
+            }
+        }
+    }
+
+/* Finaliza footer sobre mi */
+/* Comienza SEMINARIOS */
+
+    .bodysemin{
+        background-color: $color-principal;
+        width: auto;
+    }
+
+/* Comienzza main Seminarios */
+
+    .mainseminarios{
+        width: 100%;
+        height: max-content;
+        display: flex;
+        justify-content: flex-end;
+        flex-direction: column;
+        .sectionSem1{
+            padding-top: 30px;
+            background-color:$color-principal ;
+            height: 100%;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            .sectionSem1__h1Container{
+                width: 100%;
+                .sectionSem1__h1{
+                    margin-left: 20px;
+                    text-align: left;
+                    font-size:$titles-tablet;
+                    margin-bottom: 10px;
+                }
+            }
+            .sectionSem1__pContainer{
+                width: 90%;
+                margin: 0px 20px;
+                margin-bottom: 40px;
+                .sectionSem1__p{
+                    margin-top: 10px;
+                    font-weight: 400;
+                    font-size: $texts-tablet;
+                    line-height: $texts-lineHeight-tablet;
+                    margin-bottom: 10px;
+                }
+            }
+            .sectionSem1__btnContainer{
+                margin-top: 0px;
+                width: 100%;
+                height: 190px;
+                background-color:$color-secundario;
+                grid-column: 1/8;
+                grid-row: 3/4;
+                align-self:start;
+                display: flex;
+                align-items: center;
+                margin-bottom: 30px;
+                .sectionSem1__btn{
+                    height: 35px;
+                    margin: 10px auto;
+                    padding: 5px 30px;
+                    border: 2px solid $color-font;
+                    border-radius: 20px;
+                    text-decoration: none;
+                }
+            }
+            .sectionSem1__pContainer1{
+                margin: 20px 20px;
+                margin-top: 0px;
+                grid-column: 1/8;
+                grid-row: 3/5;
+                align-self: center;
+                .sectionSem1__p{
+                    margin-top: 10px;
+                    font-weight: 400;
+                    font-size: $texts-tablet;
+                    line-height: $texts-lineHeight-tablet;
+                    margin-bottom: 10px;
+                }
+            }
+        }
+
+        .sectionSem2{
+            background-color: $color-principal ;
+            width: 100%;
+            height: max-content;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .sectionSem2__container{
+                margin-top: 30px;
+                background-color: $color-principal;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                .sectionSem2__img{
+                    width: 300px;
+                    height: 390px;
+                    border: $color-font 2px solid;
+                }
+            
+                .sectionSem2__p{
+                    margin-top: 10px;
+                    width:90%;
+                    text-align: center;
+                    margin: 10px 20px;
+                    font-size: $texts-tablet;
+                }
+            }
+        }
+    }
+/* Finaliza main Seminarios */
+/* Comienza footer Semianrios */
+    .footerSem{
+        margin-top: 30px;
+        background-color:$color-principal;
+        padding-top: 20px;
+        height: 50px;
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        .footerSem__container{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: flex-end;
+            .footer__p{
+                text-align: center;
+                font-size: $footer-text-tablet;
+                margin-bottom: 6px;
+            }
+        }
+    }
+
+/* Finaliza footer Seminarios */
+/* comienza ESPECIALIDADES */
+/* Comienza main especialidades */
+
+    .mainEsp{
+        width: 100%;
+        height: 900px;
+        .mainEsp__whitesect{
+            padding-top: 0px;
+            height: 40%;
+            width: 95%;
+            background-color:$color-principal;
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+            justify-content:center;
+            margin-bottom: 0px;
+            .mainEsp__h1Container{
+                margin-left: 30px;
+                width:70%;
+                .mainEsp__h1{
+                    text-align: left;
+                    font-size: $titles-tablet;
+                    font-weight: 700;
+                    margin-bottom: 20px;
+                }
+            }
+            .mainEsp__pContainer{
+                margin-left: 30px;
+                width: 90%;
+                .mainEsp__p{
+                    margin-top: 0;
+                    font-size: $texts-tablet;
+                    line-height: $texts-lineHeight-tablet;
+                    width: 85%;
+                }
+            }
+        }
+        .sectionEsp__btnContainer{
+            display: inline;
+            margin-top: 0px;
+            width: 100%;
+            height: 200px;
+            background-color: $color-secundario;
+            grid-column: 1/8;
+            grid-row: 3/4;
+            align-self:start;
+            display: flex;
+            align-items: center;
+            margin-bottom: 30px;
+            .sectionEsp__btn{
+                display: inline;
+                height: 35px;
+                margin: 10px auto;
+                padding: 5px 30px;
+                border: 2px solid $color-font;
+                border-radius: 20px;
+                text-decoration: none;
+            }
+        }
+
+        .mainEsp__bluesect{
+            height: 50%;
+            width:100% ;
+            display: flex;
+            justify-content: flex-end;
+            .mainEsp__pContainer2{
+                margin-top: 15px;
+                width: 100%;
+                
+                .mainEsp__p--1{
+                    text-align: left;
+                    margin-left: 20px;
+                    margin-top: 0px;
+                    font-size: $texts-tablet;
+                    line-height: $texts-lineHeight-tablet;
+                    width: 90%;
+                    float: left;
+                }
+            }
+        }
+    }
+
+/* Finaliza main Especialidades */
+/* Comienza footer Especialidades */
+
+    .footerEsp{
+        margin-top: 120px;
+        width: 100%;
+        height: 70px;
+        background-color:$color-secundario;
+        display: grid;
+        grid-template-columns: repeat(5,1fr);
+        .footerEsp__container{
+            grid-column: 1/2;
+            display: flex;
+            align-items: center;
+            justify-content: start;
+            .footerEsp__icon{
+                height: 25px;
+                width: 25px;
+                margin-left: 30px;
+            }
+        }
+    
+    
+    
+        .footerEsp__pContainer{
+            grid-column: 3/5;
+            display: flex;
+            align-items: center;
+            justify-content: start;
+            .footerEsp__p{
+                margin-top: 15px;
+                font-size: $texts-tablet
+            }
+        }
+    }
+
+/* Finaliza footer especialidades */   
+/* Comienza CONTACTO */
+/* Comiza main contacto */
+    
+    .maincontacto{
+        width: 100%;
+        height: 1150px;
+        display: flex;
+        flex-direction: column;
+        background-color: $color-principal;
+        .maincontacto__sect1{
+            margin-top: 40px;
+            height: max-content;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            background-color:$color-principal;
+            .maincontacto__h1{
+                margin-top: 30px;
+                margin-left: 20px;
+                text-align: left;
+                font-size: $titles-tablet;
+                font-weight: 700;
+                margin-bottom: 20px;
+            }
+        }
+
+        .maincontacto__sect2{
+            height: 70%;
+            width: 100%;
+            background-color: $color-principal;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-bottom: 50px;
+            .maincontacto__formContainer{
+                background-color: $color-secundario;
+                height: 80%;
+                width:90%;
+                display: flex;
+                justify-content: center;
+                box-shadow: 0px 5px 20px rgba(23, 23, 23, 0.281);
+                .maincontacto__form{
+                    width: 90%;
+                    background-color: $color-secundario;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: flex-start;
+                    gap: 20px;
+                    .maincontacto__inputContainer{
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        width: 100%;
+                        .maincontacto__input{
+                            width: 80%;
+                            border:$color-font 1px solid;
+                            padding: 8px 6px;
+                            border-radius: 2px;
+                            &::placeholder{
+                                font-family: 'Playfair Display', serif;
+                                font-size: $footer-text-tablet;
+                                font-style: italic;
+                                font-weight: 700;
+                            }
+                            &:hover{
+                                transform: scale(1.1);
+                                transition: .4s;
+                            }
+                            
+                        }
+                        .maincontacto__btn{
+                            margin: 10px;
+                            padding: 7px 20px;
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 13px;
+                            font-family: 'Playfair Display', serif;
+                            background-color:#fff;
+                            border:$color-font 1px solid;
+
+                            &:hover{
+                                background-color: #141F35;
+                                color: #fff;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+    /* Finaliza main contacto */
+    /*Comienza Footer contacto  */
+    .footercontacto{
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .footer__p{
+            font-size: $footer-text-tablet;
+            width: 100%;
+            margin: auto;
+        }
+    }
+}
+
+
+

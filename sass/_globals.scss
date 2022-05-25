@@ -1,0 +1,17 @@
+
+
+/* Reseteo */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* body */
+body {
+    font-family: "Playfair Display", serif;
+    background-color: $color-principal;
+    color: $color-font;
+    scroll-behavior: smooth;
+}
+
