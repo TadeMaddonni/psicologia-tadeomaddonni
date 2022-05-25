@@ -1269,6 +1269,7 @@ body {
     margin-bottom: 30px;
   }
   .mainEsp .sectionEsp__btnContainer .sectionEsp__btn {
+    display: inline;
     height: 35px;
     margin: 10px auto;
     padding: 5px 30px;
