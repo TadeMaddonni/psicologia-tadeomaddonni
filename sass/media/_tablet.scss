@@ -520,6 +520,7 @@
                 margin-left: 30px;
                 width:70%;
                 .mainEsp__h1{
+                    margin-left: 0;
                     text-align: left;
                     font-size: $titles-tablet;
                     font-weight: 700;
@@ -613,7 +614,7 @@
             justify-content: start;
             .footerEsp__p{
                 margin-top: 15px;
-                font-size: $texts-tablet
+                font-size: $footer-text-tablet;
             }
         }
     }
