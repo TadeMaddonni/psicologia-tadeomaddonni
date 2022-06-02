@@ -64,3 +64,9 @@ $footer-text-mobile:map-get($mobile , footer-text-mobile);
     font-size: $subtitulo;
     text-align: left;
 }
+
+@mixin texts {
+    font-weight: 400;
+    font-size: $texts;
+    line-height: $texts-lineHeight;
+}
