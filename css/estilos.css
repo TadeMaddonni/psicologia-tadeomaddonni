@@ -1154,9 +1154,10 @@ body {
     margin-bottom: 30px;
   }
   .mainseminarios .sectionSem1 .sectionSem1__btnContainer .sectionSem1__btn {
-    height: 35px;
+    height: 40px;
     margin: 10px auto;
     padding: 5px 30px;
+    padding-bottom: 10px;
     border: 2px solid #141F35;
     border-radius: 20px;
     text-decoration: none;
