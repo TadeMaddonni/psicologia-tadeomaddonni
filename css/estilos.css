@@ -14,6 +14,11 @@ body {
   scroll-behavior: smooth;
 }
 
+/* Link refs */
+a {
+  color: #141F35;
+}
+
 /* Variables */
 :root {
   --color-principal:#d9faf9;
