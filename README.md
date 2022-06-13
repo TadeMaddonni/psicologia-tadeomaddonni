@@ -14,6 +14,8 @@ Este sitio esta diseñado y desarrollado con el objetivo de dar a conocer a la l
 ## 🛠 Tecnologias utilizadas
     FIGMA para el diseño de wireframes y mockups
 
+    BOOTSTRAP para la implementación de menu hamburguesa.
+
     HTML para el maquetado y la estructuracion del sitio
 
     SASS & CSS para la implementacion de estilos en el mismo
