@@ -1,6 +1,6 @@
 /* Comienza TABLET */
 
-@media (min-width: 561px) and (max-width: 1023px) {
+@media (min-width: 561px) and (max-width: 1050px) {
 
     /* Globañ */
 
@@ -69,7 +69,7 @@
     /* Estilos Main index */
     .main{
         width: 100%;
-        height: 1200px;
+        height: 1250px;
         overflow: hidden;
         display: flex;
         flex-direction: column;
@@ -202,13 +202,14 @@
     /* Comienza main Sobre Mi */
     .mainsobremi{
         width: 100%;
-        height: 1100px;
+        height: 1200px;
         .sobremisect{
-            height: 30%;
+            height: 32%;
             width: 100%;
             background-color:$color-principal;
             display: flex;
             justify-content: start;
+            align-items: center;
             
             .sobremisect__container{
                 margin: 40px 20px;
@@ -383,7 +384,8 @@
         justify-content: flex-end;
         flex-direction: column;
         .sectionSem1{
-            padding-top: 30px;
+            padding-top: 80px;
+            padding-bottom: 80px;
             background-color:$color-principal ;
             height: 100%;
             width: 100%;
@@ -407,7 +409,7 @@
                     font-weight: 400;
                     font-size: $texts-tablet;
                     line-height: $texts-lineHeight-tablet;
-                    margin-bottom: 10px;
+                    margin-bottom: 40px;
                 }
             }
             .sectionSem1__btnContainer{
@@ -503,85 +505,68 @@
 /* comienza ESPECIALIDADES */
 /* Comienza main especialidades */
 
-    .mainEsp{
-        width: 100%;
-        height: 900px;
-        .mainEsp__whitesect{
-            padding-top: 0px;
-            height: 40%;
-            width: 95%;
-            background-color:$color-principal;
-            display: flex;
-            flex-direction: column;
-            align-items: start;
-            justify-content:center;
-            margin-bottom: 0px;
-            .mainEsp__h1Container{
-                margin-left: 30px;
-                width:70%;
-                .mainEsp__h1{
-                    margin-left: 0;
-                    text-align: left;
-                    font-size: $titles-tablet;
-                    font-weight: 700;
-                    margin-bottom: 20px;
-                }
-            }
-            .mainEsp__pContainer{
-                margin-left: 30px;
-                width: 90%;
-                .mainEsp__p{
-                    margin-top: 0;
-                    font-size: $texts-tablet;
-                    line-height: $texts-lineHeight-tablet;
-                    width: 85%;
-                }
+.mainEsp{
+    width: 100%;
+    height:1160px;
+    .mainEsp__whitesect{
+        margin-top: 50px;
+        padding-top: 30px;
+        height: 45%;
+        width: 70%;
+        background-color:$color-secundario;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 30px;
+        
+        .mainEsp__h1Container{
+            margin-top: 40px;
+            margin-left: 0px;
+            width:70%;
+            .mainEsp__h1{
+                margin-left:0;
+                text-align: left;
+                font-size:$titles-tablet;
+                font-weight: 700;
+                margin-bottom: 20px;
             }
         }
-        .sectionEsp__btnContainer{
-            display: inline;
-            margin-top: 0px;
-            width: 100%;
-            height: 200px;
-            background-color: $color-secundario;
-            grid-column: 1/8;
-            grid-row: 3/4;
-            align-self:start;
-            display: flex;
-            align-items: center;
-            margin-bottom: 30px;
-            .sectionEsp__btn{
-                display: inline;
-                height: 35px;
-                margin: 10px auto;
-                padding: 5px 30px;
-                border: 2px solid $color-font;
-                border-radius: 20px;
-                text-decoration: none;
-            }
-        }
-
-        .mainEsp__bluesect{
-            height: 50%;
-            width:100% ;
-            display: flex;
-            justify-content: flex-end;
-            .mainEsp__pContainer2{
-                margin-top: 15px;
+        .mainEsp__pContainer{
+            padding: 5px;
+            margin-left: 0px;
+            width: 90%;
+            .mainEsp__p{
+                margin-top: 10px;
+                font-size: $texts-tablet;
+                line-height: $texts-lineHeight-tablet;
                 width: 100%;
-                
-                .mainEsp__p--1{
-                    text-align: left;
-                    margin-left: 20px;
-                    margin-top: 0px;
-                    font-size: $texts-tablet;
-                    line-height: $texts-lineHeight-tablet;
-                    width: 90%;
-                    float: left;
-                }
             }
         }
     }
+    .sectionEsp__btnContainer{
+        margin-top: 50px;
+        width: 100%;
+        height:200px;
+        background-color: $color-secundario;
+        grid-column: 1/8;
+        grid-row: 3/4;
+        align-self:start;
+        display: flex;
+        align-items: center;
+        margin-bottom: 30px;
+        .sectionEsp__btn{
+            display: inline;
+            height: 35px;
+            margin: 10px auto;
+            padding: 5px 30px;
+            padding-bottom: 10px;
+            border: 2px solid $color-font;
+            border-radius: 20px;
+            text-decoration: none;
+        }
+    }
+}
 
 /* Finaliza main Especialidades */
 /* Comienza footer Especialidades */
