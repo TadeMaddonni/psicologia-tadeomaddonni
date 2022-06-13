@@ -11,11 +11,11 @@ $color-secundario:#fff;
 
 //Desktop
 $desktop:(
-    titles:47px,
-    subtitulo:35px,
-    texts:19px,
-    texts-lineHeight:27px,
-    footer-text:14px,
+    titles:2.9rem,
+    subtitulo:2.2rem,
+    texts:1.2rem,
+    texts-lineHeight:1.7rem,
+    footer-text:0.9rem,
 );
 
 $titles:map-get($desktop, titles);
@@ -26,10 +26,10 @@ $footer-text:map-get($desktop , footer-text );
 
 //Tablet
 $tablet:(
-    titles-tablet:40px,
-    texts-tablet:18px,
-    texts-lineHeight-tablet:24px,
-    footer-text-tablet:14px,
+    titles-tablet:2.5rem,
+    texts-tablet:1.12rem,
+    texts-lineHeight-tablet:1.5rem,
+    footer-text-tablet:0.9rem,
 );
 
 $titles-tablet:map-get($tablet, titles-tablet );
@@ -40,10 +40,10 @@ $footer-text-tablet:map-get($tablet, footer-text-tablet );
 //Mobile
 
 $mobile:(
-    titles-mobile:35px,
-    texts-mobile:16px,
-    texts-lineHeight-mobile:23px,
-    footer-text-mobile:13px,
+    titles-mobile:2.2rem,
+    texts-mobile:1rem,
+    texts-lineHeight-mobile:1.45rem,
+    footer-text-mobile:0.8rem,
 );
 
 $titles-mobile:map-get($mobile, titles-mobile);
@@ -52,7 +52,7 @@ $texts-lineHeight-mobile:map-get($mobile, texts-lineHeight-mobile);
 $footer-text-mobile:map-get($mobile , footer-text-mobile);
 //Mixins
 
-@mixin titles ($margin:30px, $align:left){
+@mixin titles ($margin:1.87rem, $align:left){
     margin-left: $margin;
     text-align: $align;
     font-size: $titles;

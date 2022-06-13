@@ -19,6 +19,10 @@ a {
   color: #141F35;
 }
 
+p {
+  margin: 0;
+}
+
 /* Variables */
 :root {
   --color-principal:#d9faf9;
@@ -152,7 +156,7 @@ a {
   grid-column: 3/6;
   grid-row: 2/3;
   font-weight: 700;
-  font-size: 35px;
+  font-size: 2.2rem;
   text-align: left;
 }
 .main .whitesect .whitesect__button {
@@ -233,7 +237,7 @@ a {
   justify-content: space-around;
 }
 .footerindex .footerindex__pContainer .footerindex__p {
-  font-size: 14px;
+  font-size: 0.9rem;
   align-self: center;
   margin-bottom: 5px;
 }
@@ -264,14 +268,14 @@ a {
 .mainsobremi .sobremisect__container .sobremisect__title {
   margin-left: 10px;
   text-align: left;
-  font-size: 47px;
+  font-size: 2.9rem;
   font-weight: 700;
 }
 .mainsobremi .sobremisect__container .sobremisect__p {
   margin-top: 20px;
   font-weight: 400;
-  font-size: 19px;
-  line-height: 27px;
+  font-size: 1.2rem;
+  line-height: 1.7rem;
   width: 85%;
 }
 .mainsobremi .sobremisect2 {
@@ -282,7 +286,7 @@ a {
   grid-template-rows: repeat(2, 1fr);
 }
 .mainsobremi .sobremisect2 .sobremisect2__container {
-  margin-top: 10px;
+  margin-top: 0.6rem;
   grid-row: 1/2;
   grid-column: 1/4;
   width: 70%;
@@ -293,8 +297,8 @@ a {
 }
 .mainsobremi .sobremisect2 .sobremisect2__container .sobremisect2__containerimg {
   border: 2px solid #141F35;
-  width: 150px;
-  height: 220px;
+  width: 9.37rem;
+  height: 13.7rem;
   z-index: 2;
 }
 .mainsobremi .sobremisect2 .sobremisect2__container .sobremisect2__containerimg .sobremisect2__img {
@@ -323,14 +327,14 @@ a {
 .mainsobremi .sobremisect2 .sobremisect2__container2 .sobremisect2__title {
   margin-left: 0;
   text-align: right;
-  font-size: 47px;
+  font-size: 2.9rem;
   font-weight: 700;
 }
 .mainsobremi .sobremisect2 .sobremisect2__container2 .sobremisect2__p {
   margin-top: 20px;
   font-weight: 400;
-  font-size: 19px;
-  line-height: 27px;
+  font-size: 1.2rem;
+  line-height: 1.7rem;
   text-align: right;
 }
 .mainsobremi .sobremisect2 .sobremisect2__container3 {
@@ -362,9 +366,9 @@ a {
 /* Finaliza main sobre mi */
 /* Estilos Footer sobre mi */
 .footer1 {
-  margin-top: 20px;
+  margin-top: 1.25rem;
   width: 95%;
-  height: 70px;
+  height: 4.3rem;
   float: right;
   background-color: #fff;
   display: grid;
@@ -382,7 +386,7 @@ a {
   border: 2px solid #141F35;
   border-radius: 15px;
   text-decoration: none;
-  font-size: 14px;
+  font-size: 0.9rem;
 }
 .footer1 .footer1__container .footer1__btn:visited {
   color: #141F35;
@@ -408,7 +412,7 @@ a {
   justify-content: center;
 }
 .footer1 .footer1__pContainer .footer1__p {
-  font-size: 14px;
+  font-size: 0.9rem;
 }
 
 /* Finaliza footer sobre mi */
@@ -421,7 +425,7 @@ a {
 /* Comienzza main Seminarios */
 .mainseminarios {
   width: 95%;
-  height: 800px;
+  height: 50rem;
   display: flex;
   justify-content: flex-end;
 }
@@ -442,7 +446,7 @@ a {
 .mainseminarios .sectionSem1 .sectionSem1__h1Container .sectionSem1__h1 {
   margin-left: 0;
   text-align: left;
-  font-size: 47px;
+  font-size: 2.9rem;
   font-weight: 700;
   margin-bottom: 10px;
 }
@@ -453,12 +457,12 @@ a {
 .mainseminarios .sectionSem1 .sectionSem1__pContainer .sectionSem1__p {
   margin-top: 10px;
   font-weight: 400;
-  font-size: 19px;
-  line-height: 27px;
+  font-size: 1.2rem;
+  line-height: 1.7rem;
   margin-bottom: 10px;
 }
 .mainseminarios .sectionSem1 .sectionSem1__btnContainer {
-  margin-top: 20px;
+  margin-top: 1.25rem;
   grid-column: 2/7;
   grid-row: 3/4;
   align-self: start;
@@ -482,7 +486,7 @@ a {
   transition: 0.4s;
 }
 .mainseminarios .sectionSem1 .sectionSem1__pContainer1 {
-  margin-top: 60px;
+  margin-top: 3.75rem;
   grid-column: 2/7;
   grid-row: 3/5;
   align-self: start;
@@ -491,8 +495,8 @@ a {
   margin-top: 10px;
   margin-bottom: 10px;
   font-weight: 400;
-  font-size: 19px;
-  line-height: 27px;
+  font-size: 1.2rem;
+  line-height: 1.7rem;
 }
 .mainseminarios .sectionSem2 {
   background-color: #d9faf9;
@@ -516,8 +520,8 @@ a {
 }
 .mainseminarios .sectionSem2 .sectionSem2__container .sectionSem2__p {
   font-weight: 400;
-  font-size: 19px;
-  line-height: 27px;
+  font-size: 1.2rem;
+  line-height: 1.7rem;
   margin-top: 10px;
   width: 100%;
   text-align: center;
@@ -526,7 +530,7 @@ a {
 /* Finaliza main Seminarios */
 /* Comienza footer Semianrios */
 .footerSem {
-  height: 50px;
+  height: 3.12rem;
   width: 95%;
   display: flex;
   justify-content: flex-end;
@@ -540,7 +544,7 @@ a {
 }
 .footerSem .footerSem__container .footer__p {
   text-align: center;
-  font-size: 14px;
+  font-size: 0.9rem;
   margin-bottom: 6px;
 }
 
@@ -548,7 +552,7 @@ a {
 /* Comienza main especialidades */
 .mainEsp {
   width: 100%;
-  height: 800px;
+  height: 50rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -562,34 +566,35 @@ a {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  border-radius: 10px;
+  border-radius: 0.6rem;
   box-shadow: 0px 5px 20px rgba(23, 23, 23, 0.281);
 }
 .mainEsp .mainEsp__whitesect .mainEsp__h1Container {
-  margin-left: 30px;
+  margin-left: 0;
   width: 100%;
   display: flex;
   justify-content: center;
 }
 .mainEsp .mainEsp__whitesect .mainEsp__h1Container .mainEsp__h1 {
-  margin-left: 30px;
+  margin-left: 1.87rem;
   text-align: left;
-  font-size: 47px;
+  font-size: 2.9rem;
   font-weight: 700;
-  margin-bottom: 20px;
+  margin-bottom: 1.25rem;
   margin-left: 0;
 }
 .mainEsp .mainEsp__whitesect .mainEsp__pContainer {
-  margin-left: 0px;
+  margin-left: 0;
   width: 100%;
   display: flex;
   justify-content: center;
 }
 .mainEsp .mainEsp__whitesect .mainEsp__pContainer .mainEsp__p {
   text-align: center;
-  margin-top: 10px;
-  font-size: 21px;
-  line-height: 30px;
+  margin-top: 0rem;
+  margin-bottom: 0rem;
+  font-size: 1.2rem;
+  line-height: 1.7rem;
   width: 70%;
 }
 .mainEsp .sectionEsp__btnContainer {
@@ -602,9 +607,9 @@ a {
 /* Finaliza main Especialidades */
 /* Comienza footer Especialidades */
 .footerEsp {
-  margin-top: 20px;
+  margin-top: 1.2rem;
   width: 95%;
-  height: 70px;
+  height: 4.4rem;
   float: right;
   background-color: #fff;
   display: grid;
@@ -617,9 +622,9 @@ a {
   justify-content: start;
 }
 .footerEsp .footerEsp__container a .footer1__icon {
-  height: 25px;
-  width: 25px;
-  margin-left: 30px;
+  height: 1.5rem;
+  width: 1.5rem;
+  margin-left: 1.9rem;
 }
 .footerEsp .footerEsp__container a .footer1__icon:hover {
   transform: scale(1.2);
@@ -632,13 +637,13 @@ a {
   justify-content: center;
 }
 .footerEsp .footerEsp__pContainer .footerEsp__p {
-  font-size: 14px;
+  font-size: 0.9rem;
 }
 
 /* Comiza main contacto */
 .maincontacto {
   width: 100%;
-  height: 800px;
+  height: 50rem;
 }
 .maincontacto .maincontacto__sect1 {
   height: 20%;
@@ -648,11 +653,11 @@ a {
   background-color: #fff;
 }
 .maincontacto .maincontacto__sect1 .maincontacto__h1 {
-  margin-left: 30px;
+  margin-left: 1.87rem;
   text-align: left;
-  font-size: 47px;
+  font-size: 2.9rem;
   font-weight: 700;
-  margin-bottom: 20px;
+  margin-bottom: 1.25rem;
 }
 .maincontacto .maincontacto__sect2 {
   height: 80%;
@@ -678,7 +683,7 @@ a {
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  gap: 20px;
+  gap: 1.25rem;
 }
 .maincontacto .maincontacto__sect2 .maincontacto__formContainer .maincontacto__form .maincontacto__inputContainer {
   display: flex;
@@ -694,7 +699,7 @@ a {
 }
 .maincontacto .maincontacto__sect2 .maincontacto__formContainer .maincontacto__form .maincontacto__inputContainer .maincontacto__input::placeholder {
   font-family: "Playfair Display", serif;
-  font-size: 14px;
+  font-size: 0.9rem;
   font-style: italic;
   font-weight: 400;
   color: #141F35;
@@ -708,7 +713,7 @@ a {
   padding: 7px 10px;
   font-style: italic;
   font-weight: 300;
-  font-size: 14px;
+  font-size: 0.9rem;
   font-family: "Playfair Display", serif;
   background-color: #fff;
   border: #141F35 1px solid;
@@ -744,7 +749,7 @@ a {
   height: 100%;
   width: 100%;
   margin: auto;
-  font-size: 14px;
+  font-size: 0.9rem;
 }
 
 /* Media queries */
@@ -854,7 +859,7 @@ a {
     grid-column: 2/7;
     grid-row: 2/3;
     font-weight: 700;
-    font-size: 35px;
+    font-size: 2.2rem;
     text-align: center;
   }
   .main .whitesect .whitesect__button {
@@ -902,7 +907,7 @@ a {
     padding-right: 10px;
     padding-left: 10px;
     width: 100%;
-    font-size: 16px;
+    font-size: 1rem;
     text-align: center;
   }
   /* Finaliza main index */
@@ -932,7 +937,7 @@ a {
     justify-content: space-around;
   }
   .footerindex .footerindex__pContainer .footerindex__p {
-    font-size: 13px;
+    font-size: 0.8rem;
     align-self: center;
     margin-bottom: 5px;
   }
@@ -956,13 +961,13 @@ a {
     flex-direction: column;
   }
   .mainsobremi .sobremisect .sobremisect__container .sobremisect__title {
-    font-size: 35px;
+    font-size: 2.2rem;
     font-weight: 700;
   }
   .mainsobremi .sobremisect .sobremisect__container .sobremisect__p {
     margin-top: 20px;
-    font-size: 16px;
-    line-height: 23px;
+    font-size: 1rem;
+    line-height: 1.45rem;
     width: 100%;
   }
   .mainsobremi .sobremisect2 {
@@ -1016,13 +1021,13 @@ a {
   }
   .mainsobremi .sobremisect2 .sobremisect2__container2 .sobremisect2__title {
     text-align: left;
-    font-size: 35px;
+    font-size: 2.2rem;
     font-weight: 700;
   }
   .mainsobremi .sobremisect2 .sobremisect2__container2 .sobremisect2__p {
     margin-top: 20px;
-    font-size: 16px;
-    line-height: 23px;
+    font-size: 1rem;
+    line-height: 1.45rem;
     text-align: left;
   }
   .mainsobremi .sobremisect2 .sobremisect2__container3 {
@@ -1040,8 +1045,6 @@ a {
   }
   .mainsobremi .sobremisect2 .sobremisect2__container3 .sobremisect2__containerimg3 {
     margin-top: 20px;
-    width: 180px;
-    height: 180px;
     border-radius: 50%;
     border: 1px solid #141F35;
   }
@@ -1083,7 +1086,7 @@ a {
     justify-content: center;
   }
   .footer1 .footer1__pContainer .footer1__p {
-    font-size: 13px;
+    font-size: 0.8rem;
   }
   /* Finaliza footer sobre mi */
   /*  Comienza SEMINARIOS */
@@ -1115,7 +1118,7 @@ a {
   .mainseminarios .sectionSem1 .sectionSem1__h1Container .sectionSem1__h1 {
     margin-left: 20px;
     text-align: left;
-    font-size: 35px;
+    font-size: 2.2rem;
     margin-bottom: 10px;
   }
   .mainseminarios .sectionSem1 .sectionSem1__pContainer {
@@ -1126,8 +1129,8 @@ a {
   .mainseminarios .sectionSem1 .sectionSem1__pContainer .sectionSem1__p {
     margin-top: 10px;
     font-weight: 400;
-    font-size: 16px;
-    line-height: 23px;
+    font-size: 1rem;
+    line-height: 1.45rem;
     margin-bottom: 10px;
   }
   .mainseminarios .sectionSem1 .sectionSem1__btnContainer {
@@ -1161,8 +1164,8 @@ a {
   .mainseminarios .sectionSem1 .sectionSem1__pContainer1 .sectionSem1__p {
     margin-top: 10px;
     font-weight: 400;
-    font-size: 16px;
-    line-height: 23px;
+    font-size: 1rem;
+    line-height: 1.45rem;
     margin-bottom: 10px;
   }
   .mainseminarios .sectionSem2 {
@@ -1191,8 +1194,8 @@ a {
     width: 90%;
     text-align: center;
     margin: 10px 20px;
-    font-size: 16px;
-    line-height: 23px;
+    font-size: 1rem;
+    line-height: 1.45rem;
   }
   /* Finaliza main Seminarios */
   /* Comienza footer Semianrios */
@@ -1213,7 +1216,7 @@ a {
   }
   .footerSem .footerSem__container .footer__p {
     text-align: center;
-    font-size: 13px;
+    font-size: 0.8rem;
     margin-bottom: 6px;
   }
   /* Finaliza footer Seminarios */
@@ -1241,7 +1244,7 @@ a {
   .mainEsp .mainEsp__whitesect .mainEsp__h1Container .mainEsp__h1 {
     margin-left: 0;
     text-align: left;
-    font-size: 35px;
+    font-size: 2.2rem;
     font-weight: 700;
     margin-bottom: 20px;
   }
@@ -1252,8 +1255,8 @@ a {
   }
   .mainEsp .mainEsp__whitesect .mainEsp__pContainer .mainEsp__p {
     margin-top: 10px;
-    font-size: 16px;
-    line-height: 23px;
+    font-size: 1rem;
+    line-height: 1.45rem;
     width: 100%;
   }
   .mainEsp .sectionEsp__btnContainer {
@@ -1311,7 +1314,7 @@ a {
   }
   .footerEsp .footerEsp__pContainer .footerEsp__p {
     margin-bottom: 0;
-    font-size: 13px;
+    font-size: 0.8rem;
   }
   /* Finaliza footer especialidades */
   /* Comienza CONTACTO */
@@ -1336,7 +1339,7 @@ a {
     margin-top: 30px;
     margin-left: 20px;
     text-align: left;
-    font-size: 47px;
+    font-size: 2.9rem;
     font-weight: 700;
     margin-bottom: 20px;
   }
@@ -1380,7 +1383,7 @@ a {
   }
   .maincontacto .maincontacto__sect2 .maincontacto__formContainer .maincontacto__form .maincontacto__inputContainer .maincontacto__input::placeholder {
     font-family: "Playfair Display", serif;
-    font-size: 13px;
+    font-size: 0.8rem;
     font-style: italic;
     font-weight: 500;
   }
@@ -1409,7 +1412,7 @@ a {
   .footercontacto .footer__p {
     width: 100%;
     margin: auto;
-    font-size: 13px;
+    font-size: 0.8rem;
   }
 }
 /* Comienza TABLET */
@@ -1490,7 +1493,7 @@ a {
     grid-column: 2/7;
     grid-row: 2/3;
     font-weight: 700;
-    font-size: 40px;
+    font-size: 2.5rem;
     text-align: center;
   }
   .main .whitesect .whitesect__button {
@@ -1538,8 +1541,8 @@ a {
     padding-right: 10px;
     padding-left: 10px;
     width: 100%;
-    line-height: 24px;
-    font-size: 18px;
+    line-height: 1.5rem;
+    font-size: 1.12rem;
     text-align: center;
   }
   /* Finaliza main index */
@@ -1568,7 +1571,7 @@ a {
     justify-content: space-around;
   }
   .footerindex .footerindex__pContainer .footerindex__p {
-    font-size: 13px;
+    font-size: 0.8rem;
     align-self: center;
     margin-bottom: 5px;
   }
@@ -1606,13 +1609,13 @@ a {
     flex-direction: column;
   }
   .mainsobremi .sobremisect .sobremisect__container .sobremisect__title {
-    font-size: 40px;
+    font-size: 2.5rem;
     font-weight: 700;
   }
   .mainsobremi .sobremisect .sobremisect__container .sobremisect__p {
     margin-top: 20px;
-    font-size: 18px;
-    line-height: 24px;
+    font-size: 1.12rem;
+    line-height: 1.5rem;
     width: 100%;
   }
   .mainsobremi .sobremisect2 {
@@ -1666,13 +1669,13 @@ a {
   }
   .mainsobremi .sobremisect2 .sobremisect2__container2 .sobremisect2__title {
     text-align: left;
-    font-size: 40px;
+    font-size: 2.5rem;
     font-weight: 700;
   }
   .mainsobremi .sobremisect2 .sobremisect2__container2 .sobremisect2__p {
     margin-top: 20px;
-    font-size: 18px;
-    line-height: 24px;
+    font-size: 1.12rem;
+    line-height: 1.5rem;
     text-align: left;
   }
   .mainsobremi .sobremisect2 .sobremisect2__container3 {
@@ -1690,8 +1693,6 @@ a {
   }
   .mainsobremi .sobremisect2 .sobremisect2__container3 .sobremisect2__containerimg3 {
     margin-top: 20px;
-    width: 180px;
-    height: 180px;
     border-radius: 50%;
     border: 1px solid #141F35;
   }
@@ -1737,7 +1738,7 @@ a {
     margin-top: 15px;
     width: 100%;
     text-align: center;
-    font-size: 14px;
+    font-size: 0.9rem;
   }
   /* Finaliza footer sobre mi */
   /* Comienza SEMINARIOS */
@@ -1768,7 +1769,7 @@ a {
   .mainseminarios .sectionSem1 .sectionSem1__h1Container .sectionSem1__h1 {
     margin-left: 20px;
     text-align: left;
-    font-size: 40px;
+    font-size: 2.5rem;
     margin-bottom: 10px;
   }
   .mainseminarios .sectionSem1 .sectionSem1__pContainer {
@@ -1779,8 +1780,8 @@ a {
   .mainseminarios .sectionSem1 .sectionSem1__pContainer .sectionSem1__p {
     margin-top: 10px;
     font-weight: 400;
-    font-size: 18px;
-    line-height: 24px;
+    font-size: 1.12rem;
+    line-height: 1.5rem;
     margin-bottom: 40px;
   }
   .mainseminarios .sectionSem1 .sectionSem1__btnContainer {
@@ -1813,8 +1814,8 @@ a {
   .mainseminarios .sectionSem1 .sectionSem1__pContainer1 .sectionSem1__p {
     margin-top: 10px;
     font-weight: 400;
-    font-size: 18px;
-    line-height: 24px;
+    font-size: 1.12rem;
+    line-height: 1.5rem;
     margin-bottom: 10px;
   }
   .mainseminarios .sectionSem2 {
@@ -1843,7 +1844,7 @@ a {
     width: 90%;
     text-align: center;
     margin: 10px 20px;
-    font-size: 18px;
+    font-size: 1.12rem;
   }
   /* Finaliza main Seminarios */
   /* Comienza footer Semianrios */
@@ -1864,7 +1865,7 @@ a {
   }
   .footerSem .footerSem__container .footer__p {
     text-align: center;
-    font-size: 14px;
+    font-size: 0.9rem;
     margin-bottom: 6px;
   }
   /* Finaliza footer Seminarios */
@@ -1894,7 +1895,7 @@ a {
   .mainEsp .mainEsp__whitesect .mainEsp__h1Container .mainEsp__h1 {
     margin-left: 0;
     text-align: left;
-    font-size: 40px;
+    font-size: 2.5rem;
     font-weight: 700;
     margin-bottom: 20px;
   }
@@ -1905,8 +1906,8 @@ a {
   }
   .mainEsp .mainEsp__whitesect .mainEsp__pContainer .mainEsp__p {
     margin-top: 10px;
-    font-size: 18px;
-    line-height: 24px;
+    font-size: 1.12rem;
+    line-height: 1.5rem;
     width: 100%;
   }
   .mainEsp .sectionEsp__btnContainer {
@@ -1960,7 +1961,7 @@ a {
   }
   .footerEsp .footerEsp__pContainer .footerEsp__p {
     margin-top: 15px;
-    font-size: 14px;
+    font-size: 0.9rem;
   }
   /* Finaliza footer especialidades */
   /* Comienza CONTACTO */
@@ -1984,7 +1985,7 @@ a {
     margin-top: 30px;
     margin-left: 20px;
     text-align: left;
-    font-size: 40px;
+    font-size: 2.5rem;
     font-weight: 700;
     margin-bottom: 20px;
   }
@@ -2028,7 +2029,7 @@ a {
   }
   .maincontacto .maincontacto__sect2 .maincontacto__formContainer .maincontacto__form .maincontacto__inputContainer .maincontacto__input::placeholder {
     font-family: "Playfair Display", serif;
-    font-size: 14px;
+    font-size: 0.9rem;
     font-style: italic;
     font-weight: 500;
   }
@@ -2059,7 +2060,7 @@ a {
     align-items: center;
   }
   .footercontacto .footer__p {
-    font-size: 14px;
+    font-size: 0.9rem;
     width: 100%;
     margin: auto;
   }
@@ -2087,7 +2088,7 @@ a {
     grid-column: 3/6;
     grid-row: 2/3;
     font-weight: 700;
-    font-size: 35px;
+    font-size: 2.2rem;
     text-align: left;
   }
   .main .whitesect .whitesect__button {
@@ -2168,7 +2169,7 @@ a {
     justify-content: space-around;
   }
   .footerindex .footerindex__pContainer .footerindex__p {
-    font-size: 14px;
+    font-size: 0.9rem;
     align-self: center;
     margin-bottom: 5px;
   }
@@ -2199,14 +2200,14 @@ a {
   .mainsobremi .sobremisect__container .sobremisect__title {
     margin-left: 10px;
     text-align: left;
-    font-size: 47px;
+    font-size: 2.9rem;
     font-weight: 700;
   }
   .mainsobremi .sobremisect__container .sobremisect__p {
     margin-top: 20px;
     font-weight: 400;
-    font-size: 19px;
-    line-height: 27px;
+    font-size: 1.2rem;
+    line-height: 1.7rem;
     width: 85%;
   }
   .mainsobremi .sobremisect2 {
@@ -2258,14 +2259,14 @@ a {
   .mainsobremi .sobremisect2 .sobremisect2__container2 .sobremisect2__title {
     margin-left: 0;
     text-align: right;
-    font-size: 47px;
+    font-size: 2.9rem;
     font-weight: 700;
   }
   .mainsobremi .sobremisect2 .sobremisect2__container2 .sobremisect2__p {
     margin-top: 20px;
     font-weight: 400;
-    font-size: 19px;
-    line-height: 27px;
+    font-size: 1.2rem;
+    line-height: 1.7rem;
     text-align: right;
   }
   .mainsobremi .sobremisect2 .sobremisect2__container3 {
@@ -2316,7 +2317,7 @@ a {
     border: 2px solid #141F35;
     border-radius: 15px;
     text-decoration: none;
-    font-size: 14px;
+    font-size: 0.9rem;
   }
   .footer1 .footer1__container .footer1__btn:visited {
     color: #141F35;
@@ -2342,7 +2343,7 @@ a {
     justify-content: center;
   }
   .footer1 .footer1__pContainer .footer1__p {
-    font-size: 14px;
+    font-size: 0.9rem;
   }
   /* Finaliza footer sobre mi */
   /* COMIENZA SEMINARIOS */
@@ -2374,7 +2375,7 @@ a {
   .mainseminarios .sectionSem1 .sectionSem1__h1Container .sectionSem1__h1 {
     margin-left: 0;
     text-align: left;
-    font-size: 47px;
+    font-size: 2.9rem;
     font-weight: 700;
     margin-bottom: 10px;
   }
@@ -2385,8 +2386,8 @@ a {
   .mainseminarios .sectionSem1 .sectionSem1__pContainer .sectionSem1__p {
     margin-top: 10px;
     font-weight: 400;
-    font-size: 19px;
-    line-height: 27px;
+    font-size: 1.2rem;
+    line-height: 1.7rem;
     margin-bottom: 10px;
   }
   .mainseminarios .sectionSem1 .sectionSem1__btnContainer {
@@ -2423,8 +2424,8 @@ a {
     margin-top: 10px;
     margin-bottom: 10px;
     font-weight: 400;
-    font-size: 19px;
-    line-height: 27px;
+    font-size: 1.2rem;
+    line-height: 1.7rem;
   }
   .mainseminarios .sectionSem2 {
     background-color: #d9faf9;
@@ -2448,8 +2449,8 @@ a {
   }
   .mainseminarios .sectionSem2 .sectionSem2__container .sectionSem2__p {
     font-weight: 400;
-    font-size: 19px;
-    line-height: 27px;
+    font-size: 1.2rem;
+    line-height: 1.7rem;
     margin-top: 10px;
     width: 100%;
     text-align: center;
@@ -2471,7 +2472,7 @@ a {
   }
   .footerSem .footerSem__container .footer__p {
     text-align: center;
-    font-size: 14px;
+    font-size: 0.9rem;
     margin-bottom: 6px;
   }
   /* Finaliza footer Seminarios */
@@ -2502,9 +2503,9 @@ a {
     justify-content: center;
   }
   .mainEsp .mainEsp__whitesect .mainEsp__h1Container .mainEsp__h1 {
-    margin-left: 30px;
+    margin-left: 1.87rem;
     text-align: left;
-    font-size: 47px;
+    font-size: 2.9rem;
     font-weight: 700;
     margin-bottom: 20px;
     margin-left: 0;
@@ -2518,8 +2519,8 @@ a {
   .mainEsp .mainEsp__whitesect .mainEsp__pContainer .mainEsp__p {
     text-align: center;
     margin-top: 10px;
-    font-size: 21px;
-    line-height: 30px;
+    font-size: 3.2rem;
+    line-height: 4.7rem;
     width: 70%;
   }
   .mainEsp .sectionEsp__btnContainer {
@@ -2561,7 +2562,7 @@ a {
     justify-content: center;
   }
   .footerEsp .footerEsp__pContainer .footerEsp__p {
-    font-size: 14px;
+    font-size: 0.9rem;
   }
   /* Comiza main contacto */
   .maincontacto {
@@ -2576,9 +2577,9 @@ a {
     background-color: #fff;
   }
   .maincontacto .maincontacto__sect1 .maincontacto__h1 {
-    margin-left: 30px;
+    margin-left: 1.87rem;
     text-align: left;
-    font-size: 47px;
+    font-size: 2.9rem;
     font-weight: 700;
     margin-bottom: 20px;
   }
@@ -2622,7 +2623,7 @@ a {
   }
   .maincontacto .maincontacto__sect2 .maincontacto__formContainer .maincontacto__form .maincontacto__inputContainer .maincontacto__input::placeholder {
     font-family: "Playfair Display", serif;
-    font-size: 14px;
+    font-size: 0.9rem;
     font-style: italic;
     font-weight: 400;
     color: #141F35;
@@ -2636,7 +2637,7 @@ a {
     padding: 7px 10px;
     font-style: italic;
     font-weight: 300;
-    font-size: 14px;
+    font-size: 0.9rem;
     font-family: "Playfair Display", serif;
     background-color: #fff;
     border: #141F35 1px solid;
@@ -2670,7 +2671,7 @@ a {
     height: 100%;
     width: 100%;
     margin: auto;
-    font-size: 14px;
+    font-size: 0.9rem;
   }
 }
 
