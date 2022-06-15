@@ -1223,7 +1223,7 @@ p {
   /* Comienza main especialidades */
   .mainEsp {
     width: 100%;
-    height: 1160px;
+    height: 1220px;
   }
   .mainEsp .mainEsp__whitesect {
     padding-top: 30px;
@@ -2519,8 +2519,8 @@ p {
   .mainEsp .mainEsp__whitesect .mainEsp__pContainer .mainEsp__p {
     text-align: center;
     margin-top: 10px;
-    font-size: 3.2rem;
-    line-height: 4.7rem;
+    font-size: 1.2rem;
+    line-height: 1.7rem;
     width: 70%;
   }
   .mainEsp .sectionEsp__btnContainer {
